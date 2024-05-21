@@ -1,7 +1,7 @@
 ## Dependency package
-Two way:
-1. For environment configuration, please refer to the dependency package installation of yolov5:
-https://github.com/ultralytics/yolov5
+1. For environment configuration, please refer to the dependency package installation of yolov5: https://github.com/ultralytics/yolov5
+
+or
 
 2.Install the installation packages required for the virtual environment directly according to the following files:
 conda create --name mstf --file conda_mstf_env.txt

@@ -16,7 +16,7 @@ https://pan.baidu.com/s/1wj5iBRA0KmCRdU7sJlmdag?pwd=3yqv
 
 ## Train:
 ### on kaist:  
-nohup python train.py --cfg ./models/fusion_mstf_model.yaml --batch-size 64 --epochs 50 --data ./data/kaist_sanitized.yaml --name mstf_train_onkaist --device 0,1,2,3 > ./mstf_train_onkaist.log 2>&1 &
+python train.py --cfg ./models/fusion_mstf_model.yaml --batch-size 64 --epochs 50 --data ./data/kaist_sanitized.yaml --name mstf_train_onkaist --device 0,1,2,3
 
 ### on llvip:
 python train.py --cfg ./models/fusion_mstf_model.yaml --batch-size 64 --epochs 50 --data ./data/llvip.yaml --name mstf_train_onllvip --device 0,1,2,3

@@ -1,8 +1,7 @@
-# samrtllv3090 day_night path /amax/hous/program/datasets/sanitized_kaist/all
-train_rgb: /amax/hous/program/datasets/sanitized_kaist/all/visible/images/train
-train_ir: /amax/hous/program/datasets/sanitized_kaist/all/infrared/images/train
-val_rgb: /amax/hous/program/datasets/sanitized_kaist/all/visible/images/val
-val_ir: /amax/hous/program/datasets/sanitized_kaist/all/infrared/images/val
+train_rgb: visible/images/train
+train_ir: infrared/images/train
+val_rgb: visible/images/val
+val_ir: infrared/images/val
 
 nc: 5  # number of classes cvpr2015
 names: ['person', 'people', 'person?', 'cyclist', 'unpaired']

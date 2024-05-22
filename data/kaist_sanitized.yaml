@@ -1,7 +1,7 @@
-train_rgb: visible/images/train
-train_ir: infrared/images/train
-val_rgb: visible/images/val
-val_ir: infrared/images/val
+train_rgb: sanitized_kaist/visible/images/train
+train_ir: sanitized_kaist/infrared/images/train
+val_rgb: sanitized_kaist/visible/images/val
+val_ir: sanitized_kaist/infrared/images/val
 
 nc: 5  # number of classes cvpr2015
 names: ['person', 'people', 'person?', 'cyclist', 'unpaired']
